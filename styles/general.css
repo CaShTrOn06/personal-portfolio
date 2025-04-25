@@ -1,0 +1,37 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+body {
+background-color: #111;
+color: #eee;
+line-height: 1.6;
+padding: 2rem;
+padding-top: 100px;
+}
+
+section {
+max-width: 800px;
+margin: 0 auto 2rem auto;
+padding: 1rem;
+}
+
+h2 {
+font-size: 1.8rem;
+margin-bottom: 1rem;
+color: #fff;
+}
+
+footer {
+text-align: center;
+font-size: 0.9rem;
+color: #666;
+margin-top: 3rem;
+} 
+
+a{
+    color:rgb(70, 70, 148);
+}
