@@ -1,0 +1,46 @@
+.all-buttons{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.Link-to-github,
+.Link-to-youtube-web{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.Link-to-youtube-web{
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.GitHub-button,
+.youtube-web{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(45,45,45);
+    border-radius: 20px;
+    text-decoration: underline rgb(45, 45, 45);
+    color: white;
+}
+
+.GitHub-button:hover,
+.youtube-web:hover{
+    border-style:inset;
+}
+
+.GitHub-button:active,
+.youtube-web:active{
+    border-style:none;
+    background-color: rgb(83, 83, 83);
+    text-decoration: underline rgb(83, 83, 83);
+}
+
+.GitHubLogo,
+.YoutubeLogo{
+    height: 20px;
+    padding-right: 10px;
+}
