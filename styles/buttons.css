@@ -1,8 +1,24 @@
 .all-buttons{
     display: flex;
     flex-direction: row;
-    
 }
+
+.GitHub-button:hover,
+.youtube-web:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+    
+
+
+@keyframes grow {
+    0%   {transform: scale(1);}
+    50%  {transform: scale(1.1); margin-right: 6px; margin-left: 10px;}
+    100% {transform: scale(1);}
+}
+
 
 .Link-to-github,
 .Link-to-youtube-web{

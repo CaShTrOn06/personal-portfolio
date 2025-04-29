@@ -7,7 +7,17 @@ header {
     left: 0;
     right: 0;
     border-radius: 4px;
+    z-index: 100;
+    animation: header-down .5s linear forwards;
+    opacity: 1;
+    transform: translateY(-30px);
+}
 
+@keyframes header-down{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 
 
